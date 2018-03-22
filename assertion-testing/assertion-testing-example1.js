@@ -1,5 +1,7 @@
 /* 
-The Node.js Assert is the most elementary way to write tests. It provides no feedback when running your test unless one fails. The assert module provides a simple set of assertion tests that can be used to test invariants.
+The Node.js Assert is the most elementary way to write tests. It provides no feedback when running 
+your test unless one fails. The assert module provides a simple set of assertion tests that can be 
+used to test invariants.
  */
 
 var assert = require('assert');  

@@ -1,0 +1,7 @@
+1.How does Node.js work asynchronously without multithreading?
+
+2.Why is Node.js single threaded.
+Node.js was created explicitly as an experiment in async processing. 
+async processing on a single thread could provide more performance and scalability under typical web loads than the typical thread-based implementation.
+node.js app that isn't doing CPU intensive stuff can run thousands more concurrent connections 
+than Apache or IIS or other thread-based servers.
