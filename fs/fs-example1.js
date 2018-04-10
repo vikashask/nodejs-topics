@@ -7,16 +7,28 @@ Every method in the fs module has synchronous as well as asynchronous forms.
 Common use for the File System module:
 
 Read files
+    fs.readFile
+
 Create files
+    fs.appendFile()
+    fs.open()
+    fs.writeFile()
+
 Update files
+    fs.appendFile()
+    fs.writeFile()
+
 Delete files
+    fs.unlink()
+
 Rename files
+    fs.rename()
 
 */
 
 var fs = require("fs");
 // Asynchronous read
-fs.readFile('input.txt', function (err, data) {
+fs.readFile('test.txt', function (err, data) {
    if (err) {
       return console.error(err);
    }
@@ -24,7 +36,7 @@ fs.readFile('input.txt', function (err, data) {
 });
 
 // Synchronous read
-var data = fs.readFileSync('input.txt');
+var data = fs.readFileSync('test.txt');
 console.log("Synchronous read: " + data.toString());
 
 console.log("Program Ended");

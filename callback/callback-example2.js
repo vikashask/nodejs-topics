@@ -2,8 +2,8 @@
 /* program does not wait for file reading and
 proceeds to print "Program Ended" and at the same time, the program without
 blocking continues reading the file. */
-
-fs.readFileSync('input.txt',function(err,nonBlockData){
+var fs = require('fs');
+fs.readFile('input.txt',function(err,nonBlockData){
     if(err)
     console.log('error ',err);
     else

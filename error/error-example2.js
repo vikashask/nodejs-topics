@@ -6,5 +6,5 @@ function nodeStyleCallback(err, data) {
  }  
  console.log(data);  
 }  
-fs.readFile('/some/file/that/does-not-exist', nodeStyleCallback);  
-fs.readFile('/some/file/that/does-exist', nodeStyleCallback);  
+fs.readFile('../test-not-exist.txt', nodeStyleCallback);  
+fs.readFile('../test.txt', nodeStyleCallback);  
