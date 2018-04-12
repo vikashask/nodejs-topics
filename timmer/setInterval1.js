@@ -10,6 +10,6 @@ Clear timer functions:
 
 */
 
-setInterval(function() {  
-    console.log("setInterval: Hey! 1 millisecond completed!..");   
-   }, 1000);  
+setInterval(function () {
+    console.log("setInterval: Hey! 1 millisecond completed!..");
+}, 1000);
