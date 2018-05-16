@@ -1,5 +1,6 @@
 /* 
-V8 is an open source JavaScript engine developed by the Chromium project for the Google Chrome web browser. It is written in C++
+V8 is an open source JavaScript engine developed by the Chromium project for the Google Chrome web browser. 
+It is written in C++
 
 The Node.js V8 module represents interfaces and event specific to the version of V8. It provides methods to 
 get information about heap memory through v8.getHeapStatistics() and v8.getHeapSpaceStatistics() methods.
