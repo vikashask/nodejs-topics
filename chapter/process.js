@@ -8,8 +8,8 @@ process.on('uncaughtException', (err) => {
   
   setTimeout(() => {
     console.log('This will still run.');
-  }, 500);
+  }, 1000);
   
   // Intentionally cause an exception, but don't catch it.
-  nonexistentFunc();
+  // nonexistentFunc();
   console.log('This will not run.');
