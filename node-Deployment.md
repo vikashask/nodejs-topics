@@ -7,6 +7,12 @@
     sudo apt-get install build-essential
     test node is working or not by node command
 
+## Transfer app code from git to server
+    Install git
+    sudo apt-get install -y git
+    clone you project using git clone
+
+
 ## Install PM2
     sudo npm install -g pm2
 
