@@ -12,6 +12,8 @@
     sudo apt-get install -y git
     clone you project using git clone
 
+## got to your package.json path and install all package
+    npm install
 
 ## Install PM2
     sudo npm install -g pm2
