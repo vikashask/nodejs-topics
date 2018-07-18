@@ -22,6 +22,7 @@ eventEmitter.on('connection', connectHandler);
 eventEmitter.on('data_received', function(){  
    console.log('data received succesfully.');  
 });  
-// Fire the connection event   
+// Fire the connection event  
+console.log("start from here");
 eventEmitter.emit('connection');  
 console.log("Program Ended.");  
