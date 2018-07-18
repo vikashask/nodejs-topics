@@ -9,3 +9,6 @@ fs.readFile('input.txt',function(err,nonBlockData){
     else
     console.log(nonBlockData.toString());
 });
+
+console.log("test");
+
