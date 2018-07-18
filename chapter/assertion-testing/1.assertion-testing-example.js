@@ -9,6 +9,7 @@ function add (a, b) {
   return a + b;  
 }  
 var expected = add(1,2);
+console.log(expected);
   
 /* It will not provide any output because the case is true. */
 assert( expected === 3, 'one plus two is three');  
