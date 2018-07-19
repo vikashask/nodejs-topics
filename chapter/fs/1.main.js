@@ -36,6 +36,8 @@ fs.readFile('test.txt', function (err, data) {
 });
 
 // Synchronous read
+console.log("start from here");
+
 var data = fs.readFileSync('test.txt');
 console.log("Synchronous read: " + data.toString());
 
