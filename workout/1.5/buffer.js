@@ -1,5 +1,5 @@
-const string = 'touché';
-const buffer = Buffer.from('touché');
+const string = 'vikaské';
+const buffer = Buffer.from('vikaské');
 
 console.log(string, string.length);
 console.log(buffer, buffer.length);
