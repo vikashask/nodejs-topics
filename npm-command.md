@@ -1,5 +1,7 @@
 ### Installing a Package
      npm install <package_name>
+### Install Global Packages
+    npm install -g <package>    
 
 ### Get outdated packages:
     npm outdated
@@ -17,5 +19,10 @@
     npm uninstall <package>:
 ### remove it from the dependencies in package.json
     npm uninstall --save <package>:
-    
+
+### uninstall global package
+    npm uninstall -g <package>
+
+### publish a package
+    npm publish
 
