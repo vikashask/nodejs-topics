@@ -5,6 +5,7 @@ Synchronous vs Asynchronous
 Every method in the fs module has synchronous as well as asynchronous forms.
 
 Common use for the File System module:
+var fs = require("fs");
 
 Read files
     fs.readFile
