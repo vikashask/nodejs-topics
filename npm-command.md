@@ -1,3 +1,5 @@
+### Installing a Package
+     npm install <package_name>
 
 ### Get outdated packages:
     npm outdated
@@ -11,3 +13,9 @@
     npm outdated -g --depth=0
 ### To update all global packages, type:
     npm update -g
+### uninstall 
+    npm uninstall <package>:
+### remove it from the dependencies in package.json
+    npm uninstall --save <package>:
+    
+
