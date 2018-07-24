@@ -16,11 +16,18 @@ const readFileAsArray = function(file, cb = () => {}) {
 };
 
 //  call promises
-readFileAsArray('./numbers')
-  .then(lines => {
-    const numbers = lines.map(Number);
-    const oddNumbers = numbers.filter(number => number % 2 === 1);
-    console.log('odd numbers count:', oddNumbers.length);
-  })
-  .catch(console.error);
+// readFileAsArray('./numbers')
+//   .then(lines => {
+//     const numbers = lines.map(Number);
+//     const oddNumbers = numbers.filter(number => number % 2 === 1);
+//     console.log('odd numbers count:', oddNumbers.length);
+//   })
+//   .catch(console.error);
 
+readFileAsArray('./numbers', (err, lines) => {
+  if (err) throw err;
+
+  const numbers = lines.map(Number);
+  const oddNumbers = numbers.filter(number => number % 2 === 1);
+  console.log('odd numbers count:', oddNumbers.length);
+});
