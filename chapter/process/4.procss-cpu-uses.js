@@ -1,6 +1,6 @@
 
 const startUsage = process.cpuUsage();
-// { user: 38579, system: 6986 }
+// return object { user: 38579, system: 6986 }
 
 // spin the CPU for 500 milliseconds
 const now = Date.now();
