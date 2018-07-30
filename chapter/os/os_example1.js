@@ -10,3 +10,4 @@ console.log("os.tmpdir(): \n",os.tmpdir());
 console.log("os.totalmem(): \n",os.totalmem());  
 console.log("os.type(): \n",os.type());  
 console.log("os.uptime(): \n",os.uptime());  
+console.log('os.userInfo',os.userInfo());
