@@ -3,7 +3,7 @@
 
 */
 var exec = require('child_process').exec;
-exec('node -v', function (error, stdout, stderr) {
+exec('node -index.js', function (error, stdout, stderr) {
     if (stdout) {
         console.log('stdout: ' + stdout);
     }
